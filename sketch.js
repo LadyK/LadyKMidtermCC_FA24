@@ -1,14 +1,8 @@
-let x = new Array(50);
-let y = new Array(50);
 
-let num = []; // an empty array
 
 function setup() {
   createCanvas(displayWidth, displayHeight);
-  print(num.length);
-  print(x.length);
-  noStroke();
-  fill(255, 102);
+  
 }
 
 function draw() {
@@ -17,6 +11,7 @@ function draw() {
   for(let i = x.length - 1; i > 0 ; i--){
     x[i] = x[i - 1];
     y[i] = y[i-1];
+    print(i);
   }
 
   x[0] = mouseX;
