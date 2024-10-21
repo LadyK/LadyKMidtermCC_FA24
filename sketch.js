@@ -20,6 +20,7 @@ function draw() {
   // an array
  for(let i = 0; i < x.length; i++){
    ellipse(x[i], y[i], i/2, i/2);
+   print("hellllp I need more ideas");
  }
 
  //num.push(mouseX); <-- bad idea
